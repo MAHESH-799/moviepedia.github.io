@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-Pedia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="pageTitle">Movie-Pedia <i class="fa-solid fa-film"></i></h1>
+    <div class="des">
+        <p1>Welcome to Movie-Pedia!
+            Explore the cinematic universe with Movie-Pedia, your go-to destination for all things movies. Whether you're a film enthusiast or just looking for your next movie night pick, we've got you covered.<br>
+            
+            Key Features:
+            
+            🎬 Search and Discover: Use our powerful search feature to find information about your favorite movies. From classic gems to the latest releases, Movie-Pedia provides comprehensive details at your fingertips.<br>
+            
+            🌟 Detailed Movie Insights: Dive deep into the world of cinema with detailed information about each movie. Get to know the cast, director, plot, awards, box office collection, and more.<br>
+            
+            🎨 Beautiful Posters: Immerse yourself in the visual appeal of movies with high-quality posters. Each movie comes to life with captivating artwork that adds an extra layer to your browsing experience.<br>
+            
+            🕵️‍♂️ Quick Search: Don't waste time; find what you're looking for effortlessly. Our user-friendly interface ensures a seamless and efficient search experience.<br>
+            
+            🍿 Plan Your Movie Night: Get the perfect movie recommendations for your next film night. Whether you're into drama, comedy, action, or documentary, Movie-Pedia helps you discover new and exciting titles.<br>
+            
+            🌐 Powered by OMDb API: We use the OMDb API to fetch accurate and up-to-date information, ensuring that you get the most reliable details about each movie.<br>
+            
+            Movie-Pedia is designed for cinephiles, casual viewers, and everyone in between. So grab your popcorn, explore the world of movies, and make your movie nights unforgettable with Movie-Pedia!</p1>
+    </div>
+
+    <div class="search">
+        <input type="text" id="movieTitle" class="search-input" placeholder="Movie Title....." onkeypress="handleKeyPress(event)">
+        <button class="btn" onclick="searchMovie()"> Find Movie  <i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+<div class="contanier container-visible">
+    <div class="contanier">
+        <div class="content">
+            <h2 id="title">Title</h2>
+            <p>Director: <span id="director"></span></p>
+            <p>Actors: <span id="actors"></span></p>
+            <p>Writer: <span id="writer"></span></p>
+            <p>BoxOffice: <span id="collection"></span></p>
+            <p>Genre: <span id="genre"></span></p>
+            <p>Awards: <span id="awards"></span></p>
+            <p>Type: <span id="type"></span></p>
+            <p>Released: <span id="released"></span></p>
+            <p>IMDB Ratings: <span id="rating"></span></p>
+            <p>Plot: <span id="plot"></span></p>
+        </div>
+        <img id="poster" class="poster hoverable" src="poster-icon.png" alt="">
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- Add this section to your HTML body where you want the Contact Us section to appear -->
+
+<section class="contact-section">
+    <div class="contact-content">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! If you have any questions, suggestions, or just want to say hello, feel free to get in touch with us using the contact information below.</p>
+        <div class="contact-details">
+            <p><strong>Email:</strong> info@moviepedia.com</p>
+            <p><strong>Phone:</strong> +91 79934 24245</p>
+        </div>
+        <!-- <p>Follow us on social media for the latest updates:</p>
+        <div class="social-media-links">
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </div> -->
+    </div>
+</section>

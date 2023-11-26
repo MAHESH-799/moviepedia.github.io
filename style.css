@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    background-color: rgb(214, 90, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    width: 65%;
+    margin: 20px auto;
+    display: flex;
+}
+.search-input{
+    width: 70%;
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 15px;
+    background-color: rgba(253, 249, 249, 0.81);
+    color: rgba(75, 74, 74, 0.916);
+    font-size: 20px;
+}
+.search-input:focus{
+    outline: none;
+    border: none;
+}
+/* Existing styles... */
+
+/* Add this to your existing CSS or create a new stylesheet */
+
+.poster {
+    transition: transform 0.5s ease; /* Smooth transition for scaling */
+}
+
+.hoverable:hover {
+    transform: translateY(-10px); /* Move poster up on hover */
+    box-shadow: 0px 0px 15px rgb(255, 255, 255); /* Adjusted shadow color */
+}
+
+.magnified {
+    transform: scale(1.5); /* Magnify the poster on click */
+    z-index: 1; /* Ensure the magnified poster is on top */
+    cursor: zoom-out; /* Show zoom-out cursor */
+}
+
+/* Add this to your existing CSS or create a new stylesheet */
+
+.contanier {
+    display: none; /* Hide the container initially */
+}
+
+/* Add a class to style when the container is visible */
+.container-visible {
+    display: flex; /* or "block" depending on your layout */
+    width: 85%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+
+
+.des{
+    width: 85%;
+    /* text-align: center; */
+    font-style: normal;
+    font-size: 20px;
+    margin: 25px auto;
+    color: rgba(255, 255, 255, 0.855);
+}
+.btn{
+    background-color: rgba(93, 91, 91, 0.604);
+    color: white;
+    width: 20%;
+    font-size: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
+.pageTitle{
+    width: 75%;
+    text-align: center;
+    font-style: oblique;
+    font-size: 60px;
+    margin: 25px auto;
+    color: rgba(255, 255, 255, 0.855);
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.contanier{
+    width: 75%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    color: white;
+    width: 60%;
+}
+.content h2{
+    margin: 0 0 12px 0;
+    color: rgba(255, 255, 255, 0.864);
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.content p{
+    margin: 0 0 12px 0;
+    color: rgba(255, 255, 255, 0.864);
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+span{
+    color: rgba(255, 255, 255, 0.827);
+    margin: 0 0 12px 0;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: normal;
+}
+.poster{
+    width: 360px;
+    height: auto;
+    border-radius: 30px;
+}
+#title{
+    margin-top: 0;
+}
+
+.contanier.container-visible {
+    width: 75%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* Add this to your existing CSS or create a new stylesheet */
+
+.contact-section {
+    background-color: rgb(214, 90, 255);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.contact-content h2 {
+    color: #333;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.social-media-links {
+    margin-top: 20px;
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+    color: #ffffff;
+}
